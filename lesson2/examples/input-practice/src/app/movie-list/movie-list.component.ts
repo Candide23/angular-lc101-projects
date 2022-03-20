@@ -10,6 +10,12 @@ export class MovieListComponent implements OnInit {
 
    constructor() { }
 
+   
+   addMovie (newTitle: string) {
+        this.movies.push(newTitle);
+
+   }
+
    ngOnInit() {
    }
 }
